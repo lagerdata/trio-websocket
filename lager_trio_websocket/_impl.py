@@ -32,7 +32,7 @@ CONN_TIMEOUT = 60 # default connect & disconnect timeout, in seconds
 MESSAGE_QUEUE_SIZE = 1
 MAX_MESSAGE_SIZE = 2 ** 20 # 1 MiB
 RECEIVE_BYTES = 4 * 2 ** 10 # 4 KiB
-logger = logging.getLogger('trio-websocket')
+logger = logging.getLogger('lager-trio-websocket')
 
 
 @asynccontextmanager
